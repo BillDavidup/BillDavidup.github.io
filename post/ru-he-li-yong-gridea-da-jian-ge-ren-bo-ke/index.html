@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" >
 
-<title>测试 | Gridea</title>
+<title>如何利用gridea搭建个人博客 | Gridea</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://BillDavidup@github.io/favicon.ico?v=1572869813088">
+<link rel="shortcut icon" href="https://BillDavidup.github.io//favicon.ico?v=1572870812289">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://BillDavidup@github.io/styles/main.css">
+<link rel="stylesheet" href="https://BillDavidup.github.io//styles/main.css">
 
 
 
@@ -29,8 +29,8 @@
       <div class="sidebar" :class="{ 'full-height': menuVisible }">
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
-      <a class="site-title-container" href="https://BillDavidup@github.io">
-        <img src="https://BillDavidup@github.io/images/avatar.png?v=1572869813088" class="site-logo">
+      <a class="site-title-container" href="https://BillDavidup.github.io/">
+        <img src="https://BillDavidup.github.io//images/avatar.png?v=1572870812289" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -83,7 +83,7 @@
       温故而知新
     </div>
     <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://BillDavidup@github.io/atom.xml" target="_blank">RSS</a>
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://BillDavidup.github.io//atom.xml" target="_blank">RSS</a>
     </div>
   </div>
 </div>
@@ -92,42 +92,12 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">测试</h2>
+            <h2 class="post-title">如何利用gridea搭建个人博客</h2>
             <div class="post-date">2019-11-04</div>
             
             <div class="post-content">
-              <p>测试代码</p>
-<pre><code class="language-java">package com.biz.post.sort.common;
-
-import org.testng.annotations.Test;
-
-import com.alibaba.fastjson.JSONObject;
-
-import lombok.extern.slf4j.Slf4j;
-
-/**
- * @author: wudening
- * @date: 2019/10/23 10:11 上午
- * @Description: Json解析测试
- */
-@Slf4j
-public class JsonTest {
-
-    @Test
-    public void testJson() {
-        JSONObject jsonObject = JSONObject.parseObject(&quot;{\&quot;20191022\&quot;:20,\&quot;20191023\&quot;:30}&quot;);
-        log.info(&quot;jsonObject:{}&quot;, jsonObject.toString());
-        boolean contains = jsonObject.containsKey(&quot;20191023&quot;);
-        log.info(&quot;contains:{}&quot;, contains);
-        int count = Integer.parseInt(jsonObject.get(&quot;20191023&quot;).toString());
-        log.info(&quot;count:{}&quot;, count);
-
-        log.info(&quot;get:{}&quot;, jsonObject.get(&quot;20191023&quot;));
-
-    }
-}
-
-</code></pre>
+              <p>###配置Gridea<br>
+<img src="https://BillDavidup.github.io//post-images/1572870639108.jpg" alt="" width="800" height="500"></p>
 
             </div>
             
