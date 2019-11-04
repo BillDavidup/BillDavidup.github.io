@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Gridea</title>
+<title>测试 | Gridea</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -91,30 +91,51 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">测试</h2>
+            <div class="post-date">2019-11-04</div>
+            
+            <div class="post-content">
+              <p>测试代码</p>
+<pre><code class="language-java">package com.biz.post.sort.common;
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+import org.testng.annotations.Test;
+
+import com.alibaba.fastjson.JSONObject;
+
+import lombok.extern.slf4j.Slf4j;
+
+/**
+ * @author: wudening
+ * @date: 2019/10/23 10:11 上午
+ * @Description: Json解析测试
+ */
+@Slf4j
+public class JsonTest {
+
+    @Test
+    public void testJson() {
+        JSONObject jsonObject = JSONObject.parseObject(&quot;{\&quot;20191022\&quot;:20,\&quot;20191023\&quot;:30}&quot;);
+        log.info(&quot;jsonObject:{}&quot;, jsonObject.toString());
+        boolean contains = jsonObject.containsKey(&quot;20191023&quot;);
+        log.info(&quot;contains:{}&quot;, contains);
+        int count = Integer.parseInt(jsonObject.get(&quot;20191023&quot;).toString());
+        log.info(&quot;count:{}&quot;, count);
+
+        log.info(&quot;get:{}&quot;, jsonObject.get(&quot;20191023&quot;));
+
+    }
+}
+
+</code></pre>
+
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
-              
-                
-                  <article class="post">
-                    <a href="https://wudening@github.io/post/ce-shi">
-                      <h2 class="post-title">
-                        测试
-                      </h2>
-                    </a>
-                  </article>
-                
-              
             
+
+            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>

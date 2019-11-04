@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wudening@github.io</id>
     <title>Gridea</title>
-    <updated>2019-11-04T12:06:55.278Z</updated>
+    <updated>2019-11-04T12:07:45.471Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wudening@github.io"/>
     <link rel="self" href="https://wudening@github.io/atom.xml"/>
@@ -10,4 +10,44 @@
     <logo>https://wudening@github.io/images/avatar.png</logo>
     <icon>https://wudening@github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://wudening@github.io/post/ce-shi</id>
+        <link href="https://wudening@github.io/post/ce-shi">
+        </link>
+        <updated>2019-11-04T12:07:04.000Z</updated>
+        <content type="html"><![CDATA[<p>测试代码</p>
+<pre><code class="language-java">package com.biz.post.sort.common;
+
+import org.testng.annotations.Test;
+
+import com.alibaba.fastjson.JSONObject;
+
+import lombok.extern.slf4j.Slf4j;
+
+/**
+ * @author: wudening
+ * @date: 2019/10/23 10:11 上午
+ * @Description: Json解析测试
+ */
+@Slf4j
+public class JsonTest {
+
+    @Test
+    public void testJson() {
+        JSONObject jsonObject = JSONObject.parseObject(&quot;{\&quot;20191022\&quot;:20,\&quot;20191023\&quot;:30}&quot;);
+        log.info(&quot;jsonObject:{}&quot;, jsonObject.toString());
+        boolean contains = jsonObject.containsKey(&quot;20191023&quot;);
+        log.info(&quot;contains:{}&quot;, contains);
+        int count = Integer.parseInt(jsonObject.get(&quot;20191023&quot;).toString());
+        log.info(&quot;count:{}&quot;, count);
+
+        log.info(&quot;get:{}&quot;, jsonObject.get(&quot;20191023&quot;));
+
+    }
+}
+
+</code></pre>
+]]></content>
+    </entry>
 </feed>
