@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BillDavidup.github.io</id>
     <title>Gridea</title>
-    <updated>2019-11-04T13:49:09.582Z</updated>
+    <updated>2019-11-11T15:27:39.444Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BillDavidup.github.io"/>
     <link rel="self" href="https://BillDavidup.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://BillDavidup.github.io/images/avatar.png</logo>
     <icon>https://BillDavidup.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[与神相遇]]></title>
+        <id>https://BillDavidup.github.io/post/yu-shen-xiang-yu</id>
+        <link href="https://BillDavidup.github.io/post/yu-shen-xiang-yu">
+        </link>
+        <updated>2019-11-11T01:09:31.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="背景">背景</h2>
+<p>** 与神相遇，相遇的是什么？ **</p>
+<pre><code class="language-java">【约1:1】太初有道，道与 神同在，道就是 神。
+【约1:2】这道太初与 神同在。
+</code></pre>
+<hr>
+<p>与神相遇，就是与神的道相遇，道就是神的话语、旨意、灵和生命。<br>
+** 既然道是神的话语，怎么学习神的话 **</p>
+<pre><code class="language-java">【赛45:15】救主以色列的 神啊，你实在是自隐的 神。
+</code></pre>
+<p><em>斜体</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何搭建自己的博客]]></title>
         <id>https://BillDavidup.github.io/post/ru-he-da-jian-zi-ji-de-bo-ke</id>
